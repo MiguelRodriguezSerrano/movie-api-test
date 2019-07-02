@@ -1,6 +1,6 @@
 const express = require("express");
 const PORT = 3000;
-const usuarios = [
+/* const usuarios = [
   { id: 0, name: "pepe", profesión: "Ratero", sexo: "Hombre" },
   { id: 1, name: "Juana", profesión: "Ratera", sexo: "Mujer" },
   { id: 2, name: "Aaron", profesión: "Espabilado", sexo: "Hombre" },
@@ -9,18 +9,21 @@ const usuarios = [
   { id: 5, name: "Paca", sexo: "Mujer" },
   { id: 6, name: "Firulays", sexo: "Gatita" }
 ];
-
+ */
 const app = express();
+const dado = { name: "Dado", caras: 0, resultado: 0 };
 
-app.get("/usuarios", (req, res) => {
+/* app.get("/usuarios", (req, res) => {
   //console.log("Request", req);
   //res.send("Hello world\n");
   res.json(usuarios);
-});
+}); */
 
-app.get("/usuarios/:id", (req, res) => {
-  const userId = req.params.id;
-  const selectedUser = usuarios.find(usuario => usuario.id == userId);
-  res.json(selectedUser);
+app.get("/dado/:caras", (req, res) => {
+  const caras = req.params.caras;
+  const resultado = Math.ceil(Math.random() * caras);
+  dado.caras = caras;
+  dado.resultado = resultado;
+  res.json(dado);
 });
 app.listen(3000);
