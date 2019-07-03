@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "El sexto sentido",
+    "director": "M. Night Shyamalan",
+    "genre": "Drama"
+  },
+  {
+    "id": 2,
+    "name": "Pulp Fiction",
+    "director": "Tarantino",
+    "genre": "Actionn"
+  },
+  {
+    "id": 3,
+    "name": "Todo Sobre Mi Madre",
+    "director": "Almodobar",
+    "genre": "Drama"
+  },
+  {
+    "id": 4,
+    "name": "300",
+    "director": "Zack Snyder",
+    "genre": "Actionn"
+  },
+  {
+    "id": 5,
+    "name": "El silencio de los corderos",
+    "director": "Jonathan Demme",
+    "genre": "Drama"
+  },
+  {
+    "id": 6,
+    "name": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "genre": "Comedia"
+  },
+  {
+    "id": 7,
+    "name": "Las Hurdes",
+    "director": "Luis Buñuel",
+    "genre": "Documental"
+  },
+  {
+    "id": 8,
+    "name": "Vengadores Endgame",
+    "director": "Anthony and Joe Russo",
+    "genre": "Acción"
+  },
+  {
+    "id": 9,
+    "name": "Glass",
+    "director": "M. Night Shyamalan",
+    "genre": "Terror"
+  },
+  {
+    "id": 10,
+    "name": "Avatar",
+    "director": "James Cameron",
+    "genre": "Adventure"
+  }
+]
